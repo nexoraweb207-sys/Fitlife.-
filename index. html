@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Fit Life Gym | Jaipur</title>
+
+<meta name="description"
+content="Discover The Fit Life Gym, Mahesh Nagar, Jaipur. Find our location, timings and contact details.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- LOADER -->
+
+<div class="loader">
+    <h1>FIT<span>LIFE</span></h1>
+</div>
+
+<!-- NAVBAR -->
+
+<header>
+
+    <a href="#" class="logo">
+        FIT<span>LIFE.</span>
+    </a>
+
+    <nav id="nav">
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#training">TRAINING</a>
+        <a href="#reviews">REVIEWS</a>
+        <a href="#contact">CONTACT</a>
+
+    </nav>
+
+    <a class="nav-btn"
+       href="https://wa.me/917014755942"
+       target="_blank">
+       JOIN NOW ↗
+    </a>
+
+    <div class="menu" onclick="toggleMenu()">
+        ☰
+    </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content reveal">
+
+        <p class="tag">
+            WELCOME TO THE FIT LIFE GYM
+        </p>
+
+        <h1>
+            BUILD YOUR
+            <span>STRONGER</span>
+            SELF.
+        </h1>
+
+        <p class="hero-desc">
+            Your fitness journey starts here.
+            Discover a place to train, improve
+            and move towards your fitness goals.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#contact" class="primary-btn">
+                GET IN TOUCH ↗
+            </a>
+
+            <a href="#about" class="secondary-btn">
+                EXPLORE MORE ↓
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+        MAHESH NAGAR · JAIPUR
+    </div>
+
+    <div class="vertical-text">
+        DISCIPLINE · CONSISTENCY · PROGRESS
+    </div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="stat reveal">
+        <h2>4.9<span>/5</span></h2>
+        <p>GOOGLE RATING</p>
+    </div>
+
+    <div class="stat reveal">
+        <h2>963<span>+</span></h2>
+        <p>GOOGLE REVIEWS</p>
+    </div>
+
+    <div class="stat reveal">
+        <h2>2021</h2>
+        <p>LISTED ESTABLISHMENT YEAR</p>
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about section" id="about">
+
+    <div class="about-image reveal">
+
+        <img
+        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000"
+        alt="Gym equipment">
+
+        <div class="image-label">
+            <span>01 / FITNESS</span>
+        </div>
+
+    </div>
+
+    <div class="about-content reveal">
+
+        <p class="tag">ABOUT THE GYM</p>
+
+        <h2>
+            YOUR JOURNEY.
+            <span>YOUR PROGRESS.</span>
+        </h2>
+
+        <p>
+            Welcome to The Fit Life Gym,
+            located in Mahesh Nagar, Jaipur.
+
+            Whether you are beginning your
+            fitness journey or continuing
+            your training, take the next step
+            towards your personal goals.
+        </p>
+
+        <a href="#contact" class="text-btn">
+            FIND OUR GYM ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- TRAINING -->
+
+<section class="training section" id="training">
+
+    <div class="section-heading reveal">
+
+        <p class="tag">YOUR FITNESS JOURNEY</p>
+
+        <h2>
+            TRAIN WITH
+            <span>PURPOSE.</span>
+        </h2>
+
+    </div>
+
+    <div class="training-grid">
+
+        <div class="training-card reveal">
+
+            <img
+            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800"
+            alt="Strength training">
+
+            <div class="card-info">
+                <span>01</span>
+                <h3>STRENGTH TRAINING</h3>
+            </div>
+
+        </div>
+
+
+        <div class="training-card reveal">
+
+            <img
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800"
+            alt="Gym workout">
+
+            <div class="card-info">
+                <span>02</span>
+                <h3>GYM WORKOUT</h3>
+            </div>
+
+        </div>
+
+
+        <div class="training-card reveal">
+
+            <img
+            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800"
+            alt="Fitness workout">
+
+            <div class="card-info">
+                <span>03</span>
+                <h3>FITNESS TRAINING</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="disclaimer">
+        Illustrative fitness categories and stock photographs.
+        Confirm actual facilities and training programs with the gym.
+    </p>
+
+</section>
+
+
+<!-- REVIEWS -->
+
+<section class="reviews section" id="reviews">
+
+    <div class="review-content reveal">
+
+        <p class="tag">COMMUNITY TRUST</p>
+
+        <h2>
+            TRUST BUILT
+            <span>THROUGH CONSISTENCY.</span>
+        </h2>
+
+        <div class="rating">
+
+            <h3>4.9</h3>
+
+            <div>
+                <div class="stars">★★★★★</div>
+                <p>Google Business Rating</p>
+            </div>
+
+        </div>
+
+        <p>
+            Explore the experiences shared
+            by people who have visited
+            The Fit Life Gym.
+        </p>
+
+        <a
+        href="https://www.google.com/search?q=The+Fit+Life+Gym+Mahesh+Nagar+Jaipur+reviews"
+        target="_blank"
+        class="primary-btn">
+
+        READ GOOGLE REVIEWS ↗
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- HOURS -->
+
+<section class="hours section">
+
+    <div class="section-heading reveal">
+
+        <p class="tag">PLAN YOUR WORKOUT</p>
+
+        <h2>
+            FIND YOUR
+            <span>TIME.</span>
+        </h2>
+
+    </div>
+
+    <div class="hours-box reveal">
+
+        <div>
+            <h3>MONDAY – SATURDAY</h3>
+            <p>05:30 AM – 10:30 AM</p>
+            <p>04:30 PM – 09:30 PM</p>
+        </div>
+
+        <div class="closed">
+            <h3>SUNDAY</h3>
+            <p>CLOSED</p>
+        </div>
+
+    </div>
+
+    <p class="disclaimer">
+        Timings taken from the available business listing.
+        Please confirm before visiting.
+    </p>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact section" id="contact">
+
+    <div class="contact-content reveal">
+
+        <p class="tag">TAKE THE FIRST STEP</p>
+
+        <h2>
+            READY TO
+            <span>GET STARTED?</span>
+        </h2>
+
+        <p>
+            Contact The Fit Life Gym
+            for membership information
+            and enquiries.
+        </p>
+
+        <a
+        href="https://wa.me/917014755942?text=Hello%20The%20Fit%20Life%20Gym%2C%20I%20want%20to%20know%20about%20membership."
+        target="_blank"
+        class="primary-btn">
+
+        ENQUIRE ON WHATSAPP ↗
+
+        </a>
+
+        <p class="phone">
+            +91 70147 55942
+        </p>
+
+    </div>
+
+    <div class="map">
+
+        <iframe
+        src="https://maps.google.com/maps?q=B-493%20JDA%20Park%2080%20Feet%20Road%20Mahesh%20Nagar%20Jaipur&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        loading="lazy">
+        </iframe>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        FIT<span>LIFE.</span>
+    </div>
+
+    <p>
+        B-493, Near JDA Park,
+        80 Feet Road, Mahesh Nagar,
+        Jaipur, Rajasthan 302015.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 The Fit Life Gym — Unofficial Demo Concept.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
